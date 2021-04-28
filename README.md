@@ -2,10 +2,8 @@
 In this python script you can send email through voice commands
 
 ## Output
-![Output](screenshots/output.png?raw=true "Output1")
-![Output](screenshots/output2.png?raw=true "Output1")
-![Output](https://github.com/[MisterY743]/[Voice-Generated-Email]/screenshots/output.png?raw=true)
-![Output](https://github.com/[MisterY743]/[Voice-Generated-Email]/screenshots/output2.png?raw=true)
+![Output](https://github.com/MisterY743/Voice-Generated-Email/blob/main/screenshots/output.PNG?raw=true)
+![Output](https://github.com/MisterY743/Voice-Generated-Email/blob/main/screenshots/output2.PNG?raw=true)
 
 ## Modules requires:
             pip install pyttsx3

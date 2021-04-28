@@ -17,26 +17,26 @@ def get_info():
             voice = listener.listen(source)
             info = listener.recognize_google(voice)
             print(info)
-            return info.lower()
+            return info.lower()     #all the text will be in lower
     except:
         pass
 
 def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('python.mailbot.S4@gmail.com', 'S4.python.mailbot.abx')
+    server.login('\\senders email\\', 'senders password')   #add senders email and password
     email = EmailMessage()
-    email['From'] = 'python.mailbot.S4@gmail.com'
+    email['From'] = 'senders email'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(message)
     server.send_message(email)
 
 email_list = {
-    'ankit': 'pal787871@gmail.com',
-    'neeraj': 'nirajmohanrana@gmail.com',
-    'yash': 'yashshukla233@gmail.com'
-}
+    'name1': 'gmail address 1',
+    'name2': 'gmail address 2',
+    'name3': 'gmail address 3',
+}   #this is contact list who will receive the email
 
 def get_email_info():
     talk('To whom you want to send email')

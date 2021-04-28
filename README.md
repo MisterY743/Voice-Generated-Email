@@ -2,8 +2,8 @@
 In this python script you can send email through voice commands
 
 ## Output
-![Output](screenshots/output.png?raw=true "Screen1")
-![Output](screenshots/output2.png?raw=true "Screen1")
+![Output](screenshots/output.png?raw=true "Output1")
+![Output](screenshots/output2.png?raw=true "Output1")
 
 ## Modules requires:
             pip install pyttsx3
